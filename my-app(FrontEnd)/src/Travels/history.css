@@ -1,0 +1,49 @@
+.TravelData {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: inline-block; /* Add this to make it inline with cssmenu */
+    vertical-align: top; /* Align it vertically with cssmenu */
+  }
+  
+  .TravelData h1 {
+    text-align: center;
+  }
+  
+  .TravelData table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .TravelData th, .TravelData td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .TravelData th {
+    background-color: #f2f2f2;
+  }
+  
+  .TravelData tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .TravelData button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .TravelData button:hover {
+    background-color: #45a049;
+  }
+  
+  .TravelData button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

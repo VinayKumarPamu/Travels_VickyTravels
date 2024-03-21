@@ -1,0 +1,174 @@
+.reg {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: #000000;
+  }
+  
+  .reg h2 {
+    text-align: center;
+  }
+  .reg h4 {
+    text-align: left;
+  }
+  
+  .reg form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+  
+  .reg form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .reg form label {
+    font-weight: bold;
+  }
+  
+  .reg form input[type="text"],
+  .reg form input[type="email"],
+  .reg form input[type="password"],
+  .reg form input[type="role"] {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 10px;
+  }
+  
+  .reg form input[type="submit"],
+  .reg form input[type="reset"] {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reg form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .reg form input[type="submit"]:hover{
+    background-color: #1d8022;
+  }
+  .reg form input[type="reset"]:hover {
+    background-color: #fc2414;
+  }
+  
+  .reg form input[type="reset"] {
+    margin-right: 10px;
+    background-color: #f44336;
+  }
+  
+
+    /* Home */
+
+    #cssmenu {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        line-height: 1;
+        width: 200px;
+        background: #f7f7f7;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        zoom: 1;
+    float: left;
+    }
+    
+    #cssmenu ul,
+    #cssmenu ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #cssmenu ul li.hover,
+    #cssmenu ul li:hover {
+        position: relative;
+        z-index: 599;
+        cursor: default;
+    }
+    
+    #cssmenu a {
+        display: block;
+        padding: 15px 20px;
+        color: #f26724;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    #cssmenu > ul {
+        width: 150px;
+    }
+    
+    #cssmenu > ul > li > a {
+        border-left: 5px solid #095586;
+        color: #095586;
+    }
+    
+    #cssmenu > ul > li a:hover {
+        background: #095586;
+        background-image: url(temp1.jpg);
+        background-size: cover;
+        color: rgb(235, 179, 179);
+    }
+
+    .horizontalMenu {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        line-height: 1;
+        width: 200px;
+        background: #f7f7f7;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        zoom: 1;
+        float: left;
+    }
+    
+    .horizontalMenu ul,
+    .horizontalMenu ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .horizontalMenu > ul {
+        width: 150px;
+    }
+    
+    .horizontalMenu > ul > li > a {
+        display: block;
+        padding: 15px 20px;
+        color: #f26724;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    .horizontalMenu > ul > li {
+        border-left: 5px solid #095586;
+        color: #000000;
+    }
+    
+    .horizontalMenu ul li.hover,
+    .horizontalMenu ul li:hover {
+        position: relative;
+        z-index: 599;
+        cursor: default;
+    }
+    
+    .horizontalMenu > ul > li a:hover {
+        background: #095586;
+        background-image: url(temp1.jpg);
+        background-size: cover;
+        color: rgb(235, 179, 179);
+    }
+    
